@@ -1,131 +1,53 @@
 body
 {
-	background: url(bg.jpg);
+	background: url(bg1.jpg);
 	background-size: cover;
 	background-color: #000000;
 	color: #ffffff;
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
 	margin: 0 !important;
+	overflow:hidden;
+}
+
+body, html {
+    height:100%;
 }
 
 .content
 {
+	height: 100%;
 	width: 100%;
-}
-
-.rectangle
-{
-	width:100%;
-	padding:20px 0;
 }
 
 .logo
 {
-	min-height: 150px;
-	text-align:center;
-	opacity: 0.9;
-}
-
-.nav
-{ 
-    width: 100%;
-    padding: 10px 0;
-	border-top:solid 1px;
-	border-bottom:solid 1px;
-    text-align: center;
-}
-
-ol
-{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    font-size: 20px;
-    height: 35px;
-    line-height: 200%;
-    display: inline-block;
-}
- 
-ol a
-{
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-}
- 
-ol > li
-{
-    float: left;
-    width: 150px;
-    height: 40px;
-}
- 
-ol > li:first-child
-{
-    border-left: 1px  #751b1b;
-}
- 
-ol > li:hover
-{
-    color: #000;
-	background-image: linear-gradient(to middle, rgba(0,0,255,0.1), rgba(0,0,90,1));
-	box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-}
- 
-ol > li:hover > a
-{
-    color: #000;
-	background: #fff;
-}
- 
-ol > li > ul
-{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    height: 40px;
-    display: none;
-}
- 
-ol > li:hover > ul
-{
-    display: block;
-}
- 
-ol > li > ul > li
-{
-    color: #000;
-	background: #000;
-    position: relative;
-    z-index: 100;
-    border: 1px solid #fff;
-}
- 
-ol > li > ul > li:hover
-{
-    color: #000;
-	background: #fff;
-}
- 
-ol > li > ul > li:hover > a
-{
-    color: #000;
-	background: #fff;
-}
-
-.wall
-{
 	width:100%;
+	text-align:center;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.left
+{
+	width: 50%;
+	min-height:500px;
+	float:left;
+	text-align: right;
+}
+.right
+{
+	width: 50%;
+	min-height:500px;
+	float:left;
 }
 
 .socials
 {
-	width:100%;
-	text-align:center;
-	background-color:#000000;
-	opacity:0.95;
-	border-bottom: solid 1px;
+	position: fixed;
+	bottom: 0;
+	padding-left: 3px;
+	background: rgba(0, 0, 0, 0.7);
+    width: 100%;
 }
 
 .socialdivs
@@ -134,122 +56,96 @@ ol > li > ul > li:hover > a
 	text-align:center;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 .yt
 {
 	width: 80,5px;
 	height: 50px;
-	float:left;
+	float:right;
 	font-size: 35px;
 	padding:0 10px;
 }
 .yt:hover
 {
-	background-color:#c4302b;
+	color:#c4302b;
 }
 
 .sp
 {
 	width: 80,5px;
 	height: 50px;
-	float:left;
+	float:right;
 	font-size: 35px;
 	padding:0 10px;
 }
 .sp:hover
 {
-	background-color:#1db954;
+	color:#1db954;
 }
 
 .am
 {
 	width: 80,5px;
 	height: 50px;
-	float:left;
+	float:right;
 	font-size: 35px;
-	color: #ffffff;
+	color: #fff;
 	padding:0 10px;
 }
 .am:hover
 {
-	background-color:#ffffff;
-	color:#000000
+	color:#000;
 }
 
 .sc
 {
 	width: 80,5px;
 	height: 50px;
-	float:left;
+	float:right;
 	font-size: 35px;
 	padding:0 10px;
 }
 .sc:hover
 {
-	background-color:#ff8800;
+	color:#ff8800;
 }
 
 .ig
 {
 	width: 80,5px;
 	height: 50px;
-	float:left;
+	float:right;
 	font-size: 35px;
 	padding:0 10px;
 }
 .ig:hover
 {
-	color: #fff;
 	vertical-align: middle;
-	background: #d6249f;
-	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-	box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+	color: #d6249f;
+	color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 .tw
 {
 	width: 80,5px;
 	height: 50px;
-	float:left;
+	float:right;
 	font-size: 35px;
 	padding:0 10px;
 }
 .tw:hover
 {
-	background-color:#1dcaff;
-}
-.beatstars
-{
-	width: 80,5px;
-	height: 50px;
-	float:left;
-	font-size: 35px;
-	padding:0 10px;
-}
-.beatstars:hover
-{
-	background-color:#ED1C24;
-}
-
-.aboutme
-{
-	text-align: center;
-	margin-top: 25px;
-	font-size: 25px;
-	border-bottom: solid 2px;
+	color:#1dcaff;
 }
 
 .post
 {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top:100px;
 	width:100%;
+	height: 680px;
 	margin: auto;
-	opacity: 0.8;
-	border-bottom: solid 2px;
-	background-color: #000000;
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .title
