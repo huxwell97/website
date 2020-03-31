@@ -16,46 +16,25 @@ body
 	width: 100%;
 }
 
-#logo
-{
-	width:100%;
-}
-
-.sticky
-{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.artwork
+.logo
 {
 	width: 100%;
-	text-align: center;
-	display:inline-block;
-	vertical-align: top;
-	padding-top: 200px;
-}
-.write
-{
-	width: 100%;
-	text-align: center;
-	display:inline-block;
-	vertical-align: top;
+	height: auto;
 }
 
 .socials
 {
 	position: fixed;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.7);
-	float:left;
+	float: right;
+	width:100%;
+	text-align:center;
 }
 
 .socialdivs
 {
 	width: 100%;
-	text-align:center;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -67,6 +46,9 @@ body
 	float:right;
 	font-size: 35px;
 	padding:0 10px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 100%;
+	padding:10px;
 }
 .yt:hover
 {
@@ -80,7 +62,11 @@ body
 	float:right;
 	font-size: 35px;
 	padding:0 10px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 100%;
+	padding:10px;
 }
+
 .sp:hover
 {
 	color:#1db954;
@@ -94,6 +80,9 @@ body
 	font-size: 35px;
 	color: #fff;
 	padding:0 10px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 100%;
+	padding:10px;
 }
 .am:hover
 {
@@ -107,6 +96,9 @@ body
 	float:right;
 	font-size: 35px;
 	padding:0 10px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 100%;
+	padding:10px;
 }
 .sc:hover
 {
@@ -120,6 +112,9 @@ body
 	float:right;
 	font-size: 35px;
 	padding:0 10px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 100%;
+	padding:10px;
 }
 .ig:hover
 {
@@ -135,174 +130,13 @@ body
 	float:right;
 	font-size: 35px;
 	padding:0 10px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 100%;
+	padding:10px;
 }
 .tw:hover
 {
 	color:#1dcaff;
-}
-
-.post
-{
-	padding-top:115px;
-	padding-bottom:115px;
-	width:100%;
-	margin: auto;
-	background: rgba(0, 0, 0, 0.5);
-}
-
-.title
-{
-	font-size: 40px;
-	width:560px;
-	text-align:center;
-	margin: auto;
-}
-
-.description
-{
-	font-size: 30px;
-	width:560px;
-	text-align:center;
-	margin: auto;
-}
-
-.minisocials
-{
-	text-align:center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.spsmall
-{
-	background-color:#1db954;
-	border-top-left-radius: 10%;
-	border-top-right-radius: 10%;
-	border-bottom-left-radius: 10%;
-	border-bottom-right-radius: 10%;
-	margin-top:5px;
-	margin-right:5px;
-	width: 64px;
-	height: 64px;
-	font-size: 46px;
-	text-align:center;
-	float:left;
-	border-style: solid;
-	border-color:white;
-}
-.spsmall:hover
-{
-	background-color:#0b9954;
-	border-style: solid;
-	border-color:black;
-}
-
-.amsmall
-{
-	background-color:#00000;
-	color:#ffffff;
-	border-top-left-radius: 10%;
-	border-top-right-radius: 10%;
-	border-bottom-left-radius: 10%;
-	border-bottom-right-radius: 10%;
-	margin-top:5px;
-	margin-right:5px;
-	width: 64px;
-	height: 64px;
-	font-size: 46px;
-	text-align:center;
-	float:left;
-	border-style: solid;
-	border-color:white;
-}
-.amsmall:hover
-{
-	background-color:#ffffff;
-	color:#000000;
-	border-color:black;
-}
-
-.itsmall
-{
-	background-color:#00000;
-	color:#ffffff;
-	border-top-left-radius: 10%;
-	border-top-right-radius: 10%;
-	border-bottom-left-radius: 10%;
-	border-bottom-right-radius: 10%;
-	margin-top:5px;
-	margin-right:5px;
-	width: 64px;
-	height: 64px;
-	font-size: 23px;
-	text-align:center;
-	float:left;
-	border-style: solid;
-	border-color:white;
-}
-.itsmall:hover
-{
-	background-color:#ffffff;
-	color:#000000;
-	border-style: solid;
-	border-color:black;
-}
-
-.bssmall
-{
-	background-color:#00000;
-	color:#ffffff;
-	border-top-left-radius: 10%;
-	border-top-right-radius: 10%;
-	border-bottom-left-radius: 10%;
-	border-bottom-right-radius: 10%;
-	margin-top:5px;
-	margin-right:5px;
-	width: 50px;
-	height: 50px;
-	font-size: 23px;
-	text-align:center;
-	float:left;
-	border-style: solid;
-	border-color:white;
-}
-.bssmall:hover
-{
-	background-color:#ED1C24;
-	color:#000000;
-	border-style: solid;
-	border-color:black;
-}
-
-.scsmall
-{
-	background-color:#ff8800;
-	border-top-left-radius: 10%;
-	border-top-right-radius: 10%;
-	border-bottom-left-radius: 10%;
-	border-bottom-right-radius: 10%;
-	margin-top:5px;
-	margin-right:5px;
-	width: 64px;
-	height: 64px;
-	font-size: 46px;
-	text-align:center;
-	float:left;
-	border-style: solid;
-	border-color:white;
-}
-.scsmall:hover
-{
-	background-color:#dd6800;
-	border-style: solid;
-	border-color:black;
-}
-
-.video
-{
-	width:100%;
-	text-align:center;
-	margin: auto;
 }
 
 a.tilelink
