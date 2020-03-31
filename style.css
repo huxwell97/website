@@ -1,9 +1,11 @@
 body
 {
-	background: url(background.png);
+	background: url(background.jpg);
 	background-size: cover;
 	background-position: 50% 0;
-	color: #ffffff;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	color: #fff;
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
 	margin: 0 !important;
@@ -14,16 +16,16 @@ body
 	width: 100%;
 }
 
-.top
+#logo
 {
 	width:100%;
-	background: rgba(0, 0, 0, 0.5);
 }
 
-.logo
+.sticky
 {
-	width:100%;
-	text-align:center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .artwork
@@ -32,7 +34,7 @@ body
 	text-align: center;
 	display:inline-block;
 	vertical-align: top;
-	padding-bottom:100px;
+	padding-top: 200px;
 }
 .write
 {
@@ -46,9 +48,8 @@ body
 {
 	position: fixed;
 	bottom: 0;
-	padding-left: 3px;
 	background: rgba(0, 0, 0, 0.7);
-    width: 100%;
+	float:left;
 }
 
 .socialdivs
@@ -151,11 +152,10 @@ body
 
 .title
 {
-	font-size: 30px;
+	font-size: 40px;
 	width:560px;
 	text-align:center;
 	margin: auto;
-	border-bottom: solid 2px;
 }
 
 .description
