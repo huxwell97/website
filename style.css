@@ -26,9 +26,9 @@ body
 {
 	position: fixed;
 	bottom: 0;
-	float: right;
-	width:100%;
-	text-align:center;
+	right: 0;
+	float: left;
+	padding: 10px;
 }
 
 .socialdivs
@@ -39,15 +39,21 @@ body
 	margin-right: auto;
 }
 
+.social_top
+{
+	float:left;
+	padding: 5px;
+}
+
 .yt
 {
-	width: 80,5px;
-	height: 50px;
-	float:right;
-	font-size: 35px;
+	width: 40px;
+	height: 40px;
+	float:left;
+	font-size: 29px;
 	padding:0 10px;
 	background: rgba(0, 0, 0, 0.7);
-	border-radius: 100%;
+	border-radius: 25%;
 	padding:10px;
 }
 .yt:hover
@@ -57,13 +63,13 @@ body
 
 .sp
 {
-	width: 80,5px;
-	height: 50px;
-	float:right;
-	font-size: 35px;
+	width: 40px;
+	height: 40px;
+	float:left;
+	font-size: 29px;
 	padding:0 10px;
 	background: rgba(0, 0, 0, 0.7);
-	border-radius: 100%;
+	border-radius: 25%;
 	padding:10px;
 }
 
@@ -74,14 +80,13 @@ body
 
 .am
 {
-	width: 80,5px;
-	height: 50px;
-	float:right;
-	font-size: 35px;
-	color: #fff;
+	width: 40px;
+	height: 40px;
+	float:left;
+	font-size: 29px;
 	padding:0 10px;
 	background: rgba(0, 0, 0, 0.7);
-	border-radius: 100%;
+	border-radius: 25%;
 	padding:10px;
 }
 .am:hover
@@ -91,13 +96,13 @@ body
 
 .sc
 {
-	width: 80,5px;
-	height: 50px;
-	float:right;
-	font-size: 35px;
+	width: 40px;
+	height: 40px;
+	float:left;
+	font-size: 29px;
 	padding:0 10px;
 	background: rgba(0, 0, 0, 0.7);
-	border-radius: 100%;
+	border-radius: 25%;
 	padding:10px;
 }
 .sc:hover
@@ -107,13 +112,13 @@ body
 
 .ig
 {
-	width: 80,5px;
-	height: 50px;
-	float:right;
-	font-size: 35px;
+	width: 40px;
+	height: 40px;
+	float:left;
+	font-size: 29px;
 	padding:0 10px;
 	background: rgba(0, 0, 0, 0.7);
-	border-radius: 100%;
+	border-radius: 25%;
 	padding:10px;
 }
 .ig:hover
@@ -125,13 +130,13 @@ body
 
 .tw
 {
-	width: 80,5px;
-	height: 50px;
-	float:right;
-	font-size: 35px;
+	width: 40px;
+	height: 40px;
+	float:left;
+	font-size: 28.5px;
 	padding:0 10px;
 	background: rgba(0, 0, 0, 0.7);
-	border-radius: 100%;
+	border-radius: 25%;
 	padding:10px;
 }
 .tw:hover
