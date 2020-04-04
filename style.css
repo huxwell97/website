@@ -18,8 +18,14 @@ body
 
 .logo
 {
-	width: 100%;
-	height: auto;
+	padding:10px;
+}
+
+.twitterpost
+{
+	display: flex;
+	justify-content: center;
+	padding:10px;
 }
 
 .socials
