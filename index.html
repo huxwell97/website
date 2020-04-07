@@ -15,50 +15,12 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display" rel="stylesheet" type='text/css'>
 	 
 	<link rel="icon" href="logo_small.png" sizes="16x16">
-	
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-<script type="text/javascript">
-		
-		var numer = Math.floor(Math.random()*3)+1;
-		
-		var timer1 = 0;
-		var timer2 = 0;
-		var timer3 = 0;                             // utworzenie nowej zmiennej do identyfikacji timera w funkcji ustawslajd()
-   
-	function ustawslajd(nrslajdu)
-	{
-		clearTimeout(timer1);
-		clearTimeout(timer2);
-		numer = nrslajdu - 1;
-		schowaj();
-		timer3 = setTimeout("zmienslajd()", 500); 
-           // przyporządkowanie zmiennej timer3 do setTimeout()
-	}
-   
-	function schowaj()
-	{
-		$("#slider").stop();
-                            // zatrzymanie bieżącego efektu slidera przed wywołaniem fadeOut()                           
-		$("#slider").fadeOut(500);
-	}
-  
-	function zmienslajd()
-	{
-		clearTimeout(timer3);                                                                                      // przerwanie odliczania timera 3
-		numer++; if (numer>3) numer=1;    
-		var plik = "<img src=\"slajdy/slajd" + numer + ".jpg\" />";    
-		document.getElementById("slider").innerHTML = plik;
-		$("#slider").fadeIn(500);    
-		timer1 = setTimeout("zmienslajd()", 5000);
-		timer2 = setTimeout("schowaj()", 4500);   
-   }﻿
-		
-	</script>
+	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/a569f061f9a93a1034885fa02/a2de50a7db95082205abeb184.js");</script>
 
 </head>
 	
-<body onload="zmienslajd()">
+<body>
 	
 	<div class="content">
 		
@@ -68,15 +30,14 @@
 			
 		</div>
 		
-		<!--<span onclick="ustawslajd(1)" style="cursor:pointer;" display="flex" justify-content="center">You Got Me (For Life)   |   </span>
-		<span onclick="ustawslajd(2)" style="cursor:pointer;">Derive EP   |   </span>
-		<span onclick="ustawslajd(3)" style="cursor:pointer;">About You</span>
-	
-		<div id="slider">
-		</div>-->
+		<div class="post">
+			Recent Updates
+		</div>
 		
+		<div class="post">
 		<div class="twitterpost">
 			<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Almost a year ago, me and <a href="https://twitter.com/adriank1410?ref_src=twsrc%5Etfw">@adriank1410</a> created and published Dérive EP (and we are still really proud of It 😀). It was an amazing experience. Now, I think It&#39;s finally time to start a solo project, that I decided to call &quot;Huxwell&quot;. More info soon!<br><br>Stay tuned and stay safe! ❤ <a href="https://t.co/UsLw56P9AI">pic.twitter.com/UsLw56P9AI</a></p>&mdash; Huxwell (Igor Kokot) (@huxwellmusic) <a href="https://twitter.com/huxwellmusic/status/1246507092388839425?ref_src=twsrc%5Etfw">April 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
 		</div>
 
 		<div class="socials">
