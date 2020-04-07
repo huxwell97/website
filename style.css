@@ -127,9 +127,6 @@ body
 	height: 40px;
 	float:left;
 	font-size: 29px;
-	padding:0 10px;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 25%;
 	padding:20px;
 }
 .yt:hover
