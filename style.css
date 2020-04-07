@@ -16,12 +16,70 @@ body
 	width: 100%;
 }
 
+.logo_container
+{
+	width:750px;
+	background-color:#000;
+	
+	position: fixed;
+	top:0;
+	left:50%;
+	margin-left:-375px;
+	z-index:100;
+	
+	border-radius:0px 0px 5px 5px;
+	border:1px solid #66757f;
+}
+
+.logo_container:hover
+{
+	border: 1px solid #8899a6;
+	cursor: pointer;
+}
+
+.socials_container
+{
+	width:750px;
+	background-color:#000;
+	
+	position: fixed;
+	bottom:0;
+	left:50%;
+	margin-left:-375px;
+	z-index:100;
+	
+	border-radius:5px 5px 0px 0px;
+	border:1px solid #66757f;
+}
+	
 .logo
 {
-	padding:10px;
-	position:fixed;
-	left:0;
-	bottom:0;
+	display: flex;
+	justify-content: center;
+}
+
+.top_post
+{
+	font-size: 40px;
+	width:80%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:50px;
+	display: flex;
+	justify-content: center;
+	padding-top:150px;
+}
+
+.bottom_post
+{
+	font-size: 40px;
+	width:80%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:50px;
+	display: flex;
+	justify-content: center;
+	padding-bottom:100px;
 }
 
 .post
@@ -29,7 +87,7 @@ body
 	width:80%;
 	padding-left:10%;
 	padding-right:10%;
-	padding-top:50px;
+	padding-top:30px;
 	display: flex;
 	justify-content: center;
 }
@@ -61,19 +119,18 @@ body
 .social_top
 {
 	float:left;
-	padding: 5px;
 }
 
 .yt
 {
-	width: 40px;
+	width: 85px;
 	height: 40px;
 	float:left;
 	font-size: 29px;
 	padding:0 10px;
 	background: rgba(0, 0, 0, 0.7);
 	border-radius: 25%;
-	padding:10px;
+	padding:20px;
 }
 .yt:hover
 {
@@ -82,14 +139,11 @@ body
 
 .sp
 {
-	width: 40px;
+	width: 85px;
 	height: 40px;
 	float:left;
 	font-size: 29px;
-	padding:0 10px;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 25%;
-	padding:10px;
+	padding:20px;
 }
 
 .sp:hover
@@ -99,14 +153,11 @@ body
 
 .am
 {
-	width: 40px;
+	width: 85px;
 	height: 40px;
 	float:left;
 	font-size: 29px;
-	padding:0 10px;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 25%;
-	padding:10px;
+	padding:20px;
 }
 .am:hover
 {
@@ -115,14 +166,11 @@ body
 
 .sc
 {
-	width: 40px;
+	width: 85px;
 	height: 40px;
 	float:left;
 	font-size: 29px;
-	padding:0 10px;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 25%;
-	padding:10px;
+	padding:20px;
 }
 .sc:hover
 {
@@ -131,14 +179,11 @@ body
 
 .ig
 {
-	width: 40px;
+	width: 85px;
 	height: 40px;
 	float:left;
 	font-size: 29px;
-	padding:0 10px;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 25%;
-	padding:10px;
+	padding:20px;
 }
 .ig:hover
 {
@@ -149,14 +194,11 @@ body
 
 .tw
 {
-	width: 40px;
+	width: 85px;
 	height: 40px;
 	float:left;
 	font-size: 28.5px;
-	padding:0 10px;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 25%;
-	padding:10px;
+	padding:20px;
 }
 .tw:hover
 {
